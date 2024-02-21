@@ -1,0 +1,318 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("body.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.marque{
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f7f7f7;
+  padding: 10px;
+  direction: left;
+  behavior: scroll;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  /*background-color: #333;
+  */
+  color:black;
+  background-color: transparent;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo img {
+ margin-top: 10px;
+  width: 180px; /* Adjust the width as needed */
+}
+.logo:hover img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+/* Updated navigation styles */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+main {
+  padding: 20px;
+}
+
+.mission {
+  text-align: center;
+}
+
+.mission h1 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.mission p {
+  line-height: 1.5em;
+}
+
+.activities {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button 
+
+{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.button:hover
+ {
+  background-color: #0069d9;
+  transform: scale(1.1);
+}
+
+.card
+ {
+  width: 25%;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card img
+ {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+.foot
+ {
+  background-color: #333;
+  color: #fff;
+  padding: 10px; /* Decrease the padding value as desired */
+}
+
+.copyright
+ {
+  text-align: center;
+}
+
+.social
+ {
+  text-align: center;
+}
+
+.social a 
+{
+  margin: 0 5px;
+  color: #fff;
+}
+
+.social a:hover 
+{
+  color: #ddd;
+}
+.heading 
+{
+  text-align: center;
+  font-family: "Arial Black";
+  font-size: 40px;
+  transition: all 0.3s ease-in-out;
+  color: yellow;
+  background-color: #0000006c;
+}
+
+.heading:hover
+ {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ margin-left: 450px;
+ margin-right: 450px;
+}
+.para{
+  font-size: 18px;
+padding: 25px;
+line-height: 1.5;
+background-color:rgba(0, 0, 0, 0.3);
+color: #ffffff;
+transition: all 0.3s ease-in-out;
+}
+
+.para:hover
+{
+  transform: scale(1.0);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #ffffffcb;
+  color: black;
+}
+
+.my-list {
+  list-style-type: disc;
+  margin: 35px;
+  padding: 0;
+}
+
+.my-list li {
+  margin-bottom: 10px;
+  color: yellow;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  background-color:rgba(0, 0, 0, 0.3);
+}
+.my-list li:hover {
+  color: black;
+  transform: scale(1.0);
+   cursor: pointer;
+   background-color: yellow;
+  text-decoration: underline;
+  margin-right: 800px;
+}
+
+.contact_list
+{  text-align: center;
+  justify-content: center;
+   font-size: 22px; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color:rgba(0, 0, 0, 0.4);
+   list-style: none;
+   color: yellow;
+   transition: 0.3s all ease-in-out;
+   padding: 25px;
+}
+
+.contact_list:hover{
+  color: #000;
+  background-color: rgba(255, 255, 0, 0.6);
+}
+
+.contact-form {
+  max-width: 400px;
+  margin:auto;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: yellow;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  background-color:rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+.contact-form form {
+  display: grid;
+  gap: 10px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  background-color:rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: yellow;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #000;
+  color: yellow;
+}
+
+.contact-form input[type="submit"]:focus {
+  outline: none;
+}
+
+
+.foot {
+  background-color: #333;
+  color: #fff;
+  padding: 10px; /* Decrease the padding value as desired */
+}
+
+.copyright {
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+}
+
+.social a {
+  margin: 0 5px;
+  color: #fff;
+}
+
+.social a:hover {
+  color: #ddd;
+}
